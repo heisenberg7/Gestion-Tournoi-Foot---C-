@@ -1,0 +1,133 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A7A7F758-0317-4A09-B069-FF0A0CE2BFDA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Foot_Tournoi_Brie</RootNamespace>
+    <AssemblyName>Foot_Tournoi_Brie</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="MySql.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ajoutEquipe.cs" />
+    <Compile Include="ajoutEquipe.Designer.cs">
+      <DependentUpon>ajoutEquipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ajoutMatch.cs" />
+    <Compile Include="ajoutMatch.Designer.cs">
+      <DependentUpon>ajoutMatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ajoutTerrain.cs" />
+    <Compile Include="ajoutTerrain.Designer.cs">
+      <DependentUpon>ajoutTerrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classementTournoi.cs" />
+    <Compile Include="classementTournoi.Designer.cs">
+      <DependentUpon>classementTournoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listeEquipe.cs" />
+    <Compile Include="listeEquipe.Designer.cs">
+      <DependentUpon>listeEquipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listeMatch.cs" />
+    <Compile Include="listeMatch.Designer.cs">
+      <DependentUpon>listeMatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listeTerrain.cs" />
+    <Compile Include="listeTerrain.Designer.cs">
+      <DependentUpon>listeTerrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="resultatTournoi.cs" />
+    <Compile Include="resultatTournoi.Designer.cs">
+      <DependentUpon>resultatTournoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="saisieResultat.cs" />
+    <Compile Include="saisieResultat.Designer.cs">
+      <DependentUpon>saisieResultat.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ajoutEquipe.resx">
+      <DependentUpon>ajoutEquipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ajoutMatch.resx">
+      <DependentUpon>ajoutMatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ajoutTerrain.resx">
+      <DependentUpon>ajoutTerrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classementTournoi.resx">
+      <DependentUpon>classementTournoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeEquipe.resx">
+      <DependentUpon>listeEquipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeMatch.resx">
+      <DependentUpon>listeMatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listeTerrain.resx">
+      <DependentUpon>listeTerrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resultatTournoi.resx">
+      <DependentUpon>resultatTournoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saisieResultat.resx">
+      <DependentUpon>saisieResultat.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

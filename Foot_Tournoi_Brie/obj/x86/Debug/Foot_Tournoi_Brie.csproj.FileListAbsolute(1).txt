@@ -1,0 +1,16 @@
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.MainForm.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.csproj.GenerateResource.Cache
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\bin\Debug\Foot_Tournoi_Brie.exe
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\bin\Debug\Foot_Tournoi_Brie.pdb
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.exe
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.pdb
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.ajoutEquipe.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.listeEquipe.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.ajoutTerrain.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.listeTerrain.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.ajoutMatch.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.listeMatch.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.resultatTournoi.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.saisieResultat.resources
+C:\Users\User\Documents\SharpDevelop Projects\Foot_Tournoi_Brie\obj\x86\Debug\Foot_Tournoi_Brie.classementTournoi.resources
